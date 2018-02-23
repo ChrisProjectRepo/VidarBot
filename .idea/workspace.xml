@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/domain/OnionAddress.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brad.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/domain/IP.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Config.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Initialize.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Initialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/domain/RWRandom.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/domain/RWRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/ConnectionServiceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/ConnectionServiceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/MySSLClientHttpRequestFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/MySSLClientHttpRequestFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/dao/BotServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/dao/BotServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
+    <list default="true" id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="Format" />
+    <list id="1708f50f-6ca9-4ba3-aa47-0cebc4d697a2" name="Format" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Relazione.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +30,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53780615">
+    <splitter split-orientation="horizontal" split-proportion="0.5085197">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
@@ -94,8 +76,8 @@
           <file leaf-file-name="Auth.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1050">
-                  <caret line="99" column="27" lean-forward="false" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+                <state relative-caret-position="389">
+                  <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#729#759#0" expanded="true" />
@@ -168,7 +150,7 @@
           <file leaf-file-name="CryptoPKI.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3135">
+                <state relative-caret-position="1170">
                   <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
                   <folding>
                     <element signature="e#7675#7676#0" expanded="true" />
@@ -181,8 +163,8 @@
           <file leaf-file-name="NetworkService.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+                <state relative-caret-position="9">
+                  <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
                   <folding>
                     <element signature="e#1270#1295#0" expanded="true" />
                     <element signature="e#1408#1433#0" expanded="true" />
@@ -231,6 +213,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xXCiccioXx &lt;christiansimolo@live.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -316,10 +303,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -594,6 +581,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="" />
+      <changelist id="1708f50f-6ca9-4ba3-aa47-0cebc4d697a2" name="Format" comment="" />
       <created>1515598043510</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -610,12 +598,20 @@
       <workItem from="1516980102300" duration="4118000" />
       <workItem from="1517236532590" duration="5766000" />
       <workItem from="1517411727650" duration="8567000" />
-      <workItem from="1519403416993" duration="47000" />
+      <workItem from="1519403416993" duration="901000" />
     </task>
+    <task id="LOCAL-00001" summary="Format">
+      <created>1519404027686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519404027687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73757000" />
+    <option name="totallyTimeSpent" value="74611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -628,9 +624,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39307898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21033014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -656,8 +652,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,13 +736,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationTrustResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/AuthCacheValue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -827,6 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,61 +1066,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="477" column="40" lean-forward="false" selection-start-line="477" selection-start-column="40" selection-end-line="477" selection-end-column="40" />
-          <folding>
-            <element signature="method#pingToCec#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#pingToBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#esempioRichiesta#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#askNeighbours#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#sendDeadNeighToCeC#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getChallengeFromBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getPeers#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getUser#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getBots#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getRoles#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#ready#0;class#BotRequest#0" expanded="false" />
-            <element signature="docComment;method#getResponseFromCeC#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getResponseFromBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#resolveDns#0;class#BotRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4170">
           <caret line="313" column="29" lean-forward="false" selection-start-line="313" selection-start-column="29" selection-end-line="313" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-          <folding>
-            <element signature="method#floodNeighoours#0;class#Behavior#0" expanded="false" />
-            <element signature="method#reloadDns#0;class#Behavior#0" expanded="false" />
-            <element signature="method#updateCecInfo#0;class#Behavior#0" expanded="false" />
-            <element signature="method#getPower#0;class#Behavior#0" expanded="false" />
-            <element signature="method#pingToNeighbours#0;class#Behavior#0" expanded="false" />
-            <element signature="method#syncNeightoCec#0;class#Behavior#0" expanded="false" />
-            <element signature="method#clearCecDatabase#0;class#Behavior#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
-          <folding>
-            <element signature="e#7675#7676#0" expanded="true" />
-            <element signature="e#7732#7733#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,25 +1098,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="99" column="27" lean-forward="false" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+        <state relative-caret-position="1200">
+          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#729#759#0" expanded="true" />
-            <element signature="e#839#869#0" expanded="true" />
-            <element signature="e#1231#1258#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
+            <element signature="method#floodNeighoours#0;class#Behavior#0" expanded="false" />
+            <element signature="method#reloadDns#0;class#Behavior#0" expanded="false" />
+            <element signature="method#updateCecInfo#0;class#Behavior#0" expanded="false" />
+            <element signature="method#getPower#0;class#Behavior#0" expanded="false" />
+            <element signature="method#pingToNeighbours#0;class#Behavior#0" expanded="false" />
+            <element signature="method#syncNeightoCec#0;class#Behavior#0" expanded="false" />
+            <element signature="method#clearCecDatabase#0;class#Behavior#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="477" column="40" lean-forward="false" selection-start-line="477" selection-start-column="40" selection-end-line="477" selection-end-column="40" />
+          <folding>
+            <element signature="method#pingToCec#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#pingToBot#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#esempioRichiesta#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#askNeighbours#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#sendDeadNeighToCeC#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getChallengeFromBot#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getPeers#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getUser#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getBots#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getRoles#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#ready#0;class#BotRequest#0" expanded="false" />
+            <element signature="docComment;method#getResponseFromCeC#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#getResponseFromBot#0;class#BotRequest#0" expanded="false" />
+            <element signature="method#resolveDns#0;class#BotRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
+          <folding>
+            <element signature="e#7675#7676#0" expanded="true" />
+            <element signature="e#7732#7733#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="9">
+          <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
           <folding>
             <element signature="e#1270#1295#0" expanded="true" />
             <element signature="e#1408#1433#0" expanded="true" />
@@ -1168,6 +1184,21 @@
             <element signature="method#getCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
             <element signature="method#setCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
             <element signature="e#16087#16122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#729#759#0" expanded="true" />
+            <element signature="e#839#869#0" expanded="true" />
+            <element signature="e#1231#1258#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2434#2435#0" expanded="true" />
           </folding>
         </state>
       </provider>
