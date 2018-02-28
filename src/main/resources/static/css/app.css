@@ -1,0 +1,292 @@
+html{
+	background-color:#2F2F2F; 
+}
+
+body{
+	height: 100%;
+	font-style:arial;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#mainWrapper {
+	background: url("../images/Dark_background_1920x1080.png") center top no-repeat;
+  	background-size: cover;
+  	margin-right: -18px;
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.generic-container {
+  position: absolute;
+  width: 130%;
+  margin-left: -130px;
+  margin-top: -20%;
+  margin-bottom: 20px; 
+  padding: 20px;
+  background-color: #2F2F2F;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 30px black;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+ 	
+body, #mainWrapper, .form-control{
+	font-family: "Verdana";
+	font-size:14px!important;
+	color: gray;
+}
+
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.general-container {
+    margin-top: 13%;
+    background-color: transparent;
+    width: 25%;
+    left: 38%;
+    position: absolute;
+    border: 1px;
+}
+
+.general-card {
+    width: 80%;
+    margin: auto;
+}
+
+.general-form {
+    padding: 10%;
+    
+}
+
+.authbar{
+	margin-bottom:15px;
+}
+
+
+
+
+
+
+/* stile dell'input ed effetti */
+
+input.hiddbox {
+	font-family: FontAwesome, Verdana;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	background: transparent;
+	color: gray;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	font-size: 15px;
+    color: gray;
+}
+
+input.hiddbox:focus { outline: none; }
+
+input.hiddbox:focus ~ label, input.hiddbox.used ~ label {
+	content: '';
+	top: -10px;
+  	transform: scale(.75); left: -2px;
+	color: rgb(4,167,187);
+}
+
+input.hiddbox:focus ~ .bar:before, input.hiddbox:focus ~ .bar:after { width: 50%; }
+
+
+/* barra celeste sotto le textbox */
+
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px; 
+	width: 0;
+	bottom: 1px; 
+	position: absolute;
+	background: rgb(4,167,187); 
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+
+/* stile del bottone */
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  margin: .3em 0 1em 0;
+  width: 100%;
+  vertical-align: middle;
+  color: gray;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 0;
+  border-bottom: 0px solid #3160B6;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-variant: small-caps;
+}
+
+button:focus { outline: 0; }
+
+button:hover { 
+	background-color: rgb(25,25,25); 
+	color: rgb(4,167,187);
+}
+
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 12.5px; height: 12.5px;
+  border: 1px solid #999;
+  background: black;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 12.5px; height: 12.5px;
+  border: 1px solid #999;
+  background: rgb(4,167,187);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+  
+}
+
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #999;
+  background-color: #999;
+}
+
+[type="checkbox"]:disabled:checked + label:after {
+  color: gray;
+}
+
+[type="checkbox"]:disabled + label {
+  color: gray;
+}
+
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+label:hover:before {
+  border: 1px solid rgb(4,167,187)!important;
+}
+
+label:hover {
+	color: rgb(4,167,187);
+}
+
+label.silent:hover {
+	color: grey;
+}
+
+
+
+
+
+
+
+
+select.minimal:not([multiple]) {
+width:100px;
+height: 35px;
+padding:7px;
+margin-top:3px;
+line-height:15px;
+border-radius:8px;
+background-color: black;
+color:grey;
+font-style: Verdana;
+font-size: 15px;
+}
+
+select.minimal:not([multiple]):hover {
+color:rgb(4,167,187);
+}
+
+select.minimal[multiple] {
+width:auto;
+height: auto;
+padding:7px;
+margin-top:3px;
+line-height:15px;
+border-radius:8px;
+background-color: transparent;
+color:grey;
+font-style: Verdana;
+font-size: 15px;
+}
+
+select.minimal[multiple]:hover {
+color:rgb(4,167,187);
+}
+}
