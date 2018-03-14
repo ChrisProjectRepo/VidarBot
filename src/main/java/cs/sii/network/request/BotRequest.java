@@ -202,9 +202,9 @@ public class BotRequest {
 		Pairs<String, String> cec = new Pairs<String, String>();
 		while (true) {
 			try {
-
-				System.out.println("url request " + dnsUrl);
-				cec = restTemplate.postForObject(dnsUrl, null, cec.getClass());
+				String url=HTTP+dnsUrl;
+				System.out.println("url " + dnsUrl);
+				cec = restTemplate.postForObject(url, null, cec.getClass());
 				return cec;
 			} catch (Exception e) {
 				System.err.println("Errore ricezione Ip da Mock Dns Server" + e);

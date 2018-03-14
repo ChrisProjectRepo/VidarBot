@@ -125,7 +125,13 @@ public class NetworkService {
 	 */
 	public Boolean loadMachineInfo() throws InvalidKeyException, InvalidAlgorithmParameterException, IllegalBlockSizeException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, IOException {
 		ArrayList<String> netPar = new ArrayList<String>();
-		netPar = cryptoUtils.decodeStringsFromFile("");
+		try{
+			netPar = cryptoUtils.decodeStringsFromFile("");
+		}catch (FileNotFoundException f){
+			cryptoUtils.encodeObjsToFile("", null);
+			netPar = cryptoUtils.decodeStringsFromFile("");
+		}
+
 		//TODO ip apparentemente eliminato valutare il reinserimento
 
 		myOnion=new OnionAddress(engineBot.getBotonion());
