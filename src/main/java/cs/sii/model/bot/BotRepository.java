@@ -41,10 +41,10 @@ public interface BotRepository extends CrudRepository<Bot, Integer> {
 	List<Bot> findBypubKey(@Param("PubKey") String pkey);
 
 	/**
-	 * @param ip
+	 * @param onionAddress
 	 * @return
 	 */
-	Bot findByip(@Param("Ip") String ip);
+	Bot findByip(@Param("onionAddress") String onionAddress);
 
 	/**
 	 * @param id

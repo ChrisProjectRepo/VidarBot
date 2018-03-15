@@ -23,7 +23,7 @@ public class BotServiceImpl {
 
 	public Boolean save(Bot bot) {
 		System.out.println(
-				" bot " + bot.getIdBot() + " " + bot.getIp() + " " + bot.getElegible() + " " + bot.getPubKey());
+				" bot " + bot.getIdBot() + " " + bot.getOnionAddress() + " " + bot.getElegible() + " " + bot.getPubKey());
 		if (bRep.findByIdBot(bot.getIdBot()) == null) {
 			updateBot(bot);
 			return true;
@@ -34,11 +34,11 @@ public class BotServiceImpl {
 	public Boolean saveAll(List<Bot> bots) {
 		for (Bot bot : bots) {
 			System.out.println(
-					" bot " + bot.getIdBot() + " " + bot.getIp() + " " + bot.getElegible() + " " + bot.getPubKey());
+					" bot " + bot.getIdBot() + " " + bot.getOnionAddress() + " " + bot.getElegible() + " " + bot.getPubKey());
 			if (bRep.findByIdBot(bot.getIdBot()) == null) {
 				updateBot(bot);
 			} else
-				System.out.println("bot gia presente" + bot.getIp());
+				System.out.println("bot gia presente" + bot.getOnionAddress());
 			;
 		}
 		return true;
@@ -47,7 +47,7 @@ public class BotServiceImpl {
 	public Boolean updateAll(List<Bot> bots) {
 		for (Bot bot : bots) {
 			System.out.println(
-					" bot " + bot.getIdBot() + " " + bot.getIp() + " " + bot.getElegible() + " " + bot.getPubKey());
+					" bot " + bot.getIdBot() + " " + bot.getOnionAddress() + " " + bot.getElegible() + " " + bot.getPubKey());
 			Bot b = bRep.findByIdBot(bot.getIdBot());
 			if (b == null) {
 				bRep.save(bot);
@@ -67,7 +67,7 @@ public class BotServiceImpl {
 	public void updateBot(Bot bot) {
 		Bot old = bRep.findByIdBot(bot.getIdBot());
 		if (old == null)
-			old = bRep.findByip(bot.getIp());
+			old = bRep.findByip(bot.getOnionAddress());
 		if (old != null) {
 			bRep.delete(old);
 			bot.setId(old.getId());

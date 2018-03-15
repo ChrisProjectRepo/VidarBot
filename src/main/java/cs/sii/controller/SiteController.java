@@ -23,7 +23,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import cs.sii.config.onLoad.Config;
@@ -31,7 +30,6 @@ import cs.sii.control.command.Commando;
 import cs.sii.domain.LinkBot;
 import cs.sii.domain.Target;
 import cs.sii.model.bot.Bot;
-import cs.sii.model.role.Role;
 import cs.sii.model.user.User;
 import cs.sii.service.dao.BotServiceImpl;
 import cs.sii.service.dao.RoleServiceImpl;
@@ -178,7 +176,7 @@ public class SiteController {
 		if (botList != null)
 			for (Integer i = 0; i < botList.size(); i++) {
 				Bot bot = botList.get(i);
-				System.out.println("bot sadd" + bot.getIp() + " user ?null " + bot.getBotUser() == null);
+				System.out.println("bot sadd" + bot.getOnionAddress() + " user ?null " + bot.getBotUser() == null);
 				if (bot.getBotUser() != null)
 					botList.remove(bot);
 			}

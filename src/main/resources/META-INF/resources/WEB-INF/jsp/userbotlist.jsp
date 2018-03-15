@@ -98,7 +98,7 @@
 									<c:forEach items="${bots}" var="bot">
 										<tr>
 											<td>IP:</td>
-											<td>${bot.ip}</td>
+											<td>${bot.onionAddress}</td>
 											<td>Architecture:</td>
 											<td>${bot.arch}</td>
 											<td>OS:</td>
