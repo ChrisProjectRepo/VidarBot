@@ -256,13 +256,13 @@ public class P2PMan {
 			OnionAddress s = graph.getEdgeSource(a[i]);
 			OnionAddress t = graph.getEdgeTarget(a[i]);
 			if (!s.equals(new OnionAddress(bot.getOnionAddress()))) {
-				Bot sB = bServ.searchBotIP(s);
+				Bot sB = bServ.searchBotOnionAddress(s);
 				System.out.println("add neigh of " + bot.getOnionAddress() + " " + s);
 				ipN.add(new Pairs<String, String>(sB.getOnionAddress(), (sB.getPubKey())));
 			}
 			if (!t.equals(new OnionAddress(bot.getOnionAddress()))) {
 				System.out.println("add neigh of " + bot.getOnionAddress() + " " + t);
-				Bot tB = bServ.searchBotIP(t);
+				Bot tB = bServ.searchBotOnionAddress(t);
 				ipN.add(new Pairs<String, String>(tB.getOnionAddress(), tB.getPubKey()));
 			}
 
@@ -296,7 +296,7 @@ public class P2PMan {
 			OnionAddress s = graph.getEdgeSource(a[i]);
 			OnionAddress t = graph.getEdgeTarget(a[i]);
 			if (!s.equals(new OnionAddress(data))) {
-				Bot sB = bServ.searchBotIP(s);
+				Bot sB = bServ.searchBotOnionAddress(s);
 				Pairs<OnionAddress, PublicKey> ps = new Pairs<OnionAddress, PublicKey>();
 				ps.setValue1(new OnionAddress(sB.getOnionAddress()));
 				System.out.println("nuovi vicini " + sB.getOnionAddress());
@@ -305,7 +305,7 @@ public class P2PMan {
 
 			}
 			if (!t.equals(new OnionAddress(data))) {
-				Bot tB = bServ.searchBotIP(t);
+				Bot tB = bServ.searchBotOnionAddress(t);
 				Pairs<OnionAddress, PublicKey> pt = new Pairs<OnionAddress, PublicKey>();
 				pt.setValue1(new OnionAddress(tB.getOnionAddress()));
 				System.out.println("nuovi vicini " + tB.getOnionAddress());

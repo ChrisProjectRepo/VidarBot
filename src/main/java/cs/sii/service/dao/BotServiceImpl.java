@@ -67,7 +67,7 @@ public class BotServiceImpl {
 	public void updateBot(Bot bot) {
 		Bot old = bRep.findByIdBot(bot.getIdBot());
 		if (old == null)
-			old = bRep.findByip(bot.getOnionAddress());
+			old = bRep.findByonionAddress(bot.getOnionAddress());
 		if (old != null) {
 			bRep.delete(old);
 			bot.setId(old.getId());
@@ -93,19 +93,19 @@ public class BotServiceImpl {
 	}
 
 	/**
-	 * @param ip
+	 * @param onionAddress
 	 * @return
 	 */
-	public Bot searchBotIP(OnionAddress ip) {
-		return bRep.findByip(ip.toString());
+	public Bot searchBotOnionAddress(OnionAddress onionAddress) {
+		return bRep.findByonionAddress(onionAddress.getOnion());
 	}
 
 	/**
-	 * @param ip
+	 * @param onionAddress
 	 * @return
 	 */
-	public Bot searchBotIP(String ip) {
-		return bRep.findByip(ip);
+	public Bot searchBotOnionAddress(String onionAddress) {
+		return bRep.findByonionAddress(onionAddress);
 	}
 
 	/**

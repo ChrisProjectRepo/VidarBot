@@ -44,7 +44,7 @@ public interface BotRepository extends CrudRepository<Bot, Integer> {
 	 * @param onionAddress
 	 * @return
 	 */
-	Bot findByip(@Param("onionAddress") String onionAddress);
+	Bot findByonionAddress(@Param("onionAddress") String onionAddress);
 
 	/**
 	 * @param id
