@@ -119,24 +119,36 @@ public class P2PMan {
 			Pairs<OnionAddress, String> bot = bots.get(i);
 			if (nodes.indexOf(bot.getValue1()) < 0) {
 				nodes.add(bot.getValue1());
-				System.out.println("AGGIUNGO IP A VERTICI " + bot.getValue1());
+				System.out.println("AGGIUNGO ONION ADDRESS A VERTICI " + bot.getValue1());
 			}
 
 		}
 
-		MyGnmRandomGraphDispenser<OnionAddress, DefaultEdge> g2 = new MyGnmRandomGraphDispenser<OnionAddress, DefaultEdge>(nodes.size(), 0,
-				new SecureRandom(), true, false);
-		ListenableUndirectedGraph<OnionAddress, DefaultEdge> graph2 = new ListenableUndirectedGraph<OnionAddress, DefaultEdge>(
-				DefaultEdge.class);
+		MyGnmRandomGraphDispenser<OnionAddress, DefaultEdge> g2 = new MyGnmRandomGraphDispenser<OnionAddress, DefaultEdge>(nodes.size(), 0, new SecureRandom(), true, false);
+		ListenableUndirectedGraph<OnionAddress, DefaultEdge> graph2 = new ListenableUndirectedGraph<OnionAddress, DefaultEdge>(DefaultEdge.class);
 		MyVertexFactory<OnionAddress> nodeIp2 = new MyVertexFactory<OnionAddress>((List<OnionAddress>) nodes.clone(), new SecureRandom());
 		g2 = new MyGnmRandomGraphDispenser<OnionAddress, DefaultEdge>(nodes.size(), 0, new SecureRandom(), false, false);
 		g2.updateConnectedGraph(graph, graph2, nodeIp2, null, calculateK(nodes.size()));
 		for (OnionAddress ip2 : nodes) {
-			System.out.println("gli archi di  " + graph2.degreeOf(ip2));
+			//TODO aggiungere stampa per sapere i vertici se serve
+			System.out.println("gli archi di "+ip2+": "+ graph2.degreeOf(ip2));
+			Set<DefaultEdge> test2=graph2.edgesOf(ip2);
+
 		}
 		System.out.println("create/update graph" + graph);
 		System.out.println("minium degree " + calculateK(nodes.size()));
 		this.graph = graph2;
+
+
+
+		Set<DefaultEdge> test=graph2.edgeSet();
+
+
+
+
+		Set<DefaultEdge> setEd = graph2.edgesOf(nServ.getMyOnion());
+
+
 
 		nServ.setNeighbours(myNeighbours(nServ.getMyOnion().getOnion()));
 		return graph;
@@ -235,7 +247,7 @@ public class P2PMan {
 		if (bot == null) {
 			return null;// non autenticato
 		} else {
-			System.out.println(" Ip of bot who made request " + bot.getOnionAddress());
+			System.out.println(" Onion Address of bot who made request " + bot.getOnionAddress());
 			if (graph.containsVertex(new OnionAddress(bot.getOnionAddress()))) {
 				Set<DefaultEdge> neighbours = graph.edgesOf(new OnionAddress(bot.getOnionAddress()));
 				if (neighbours.size() < calculateK(nServ.getAliveBot().getSize())) {
@@ -285,6 +297,8 @@ public class P2PMan {
 
 	public SyncIpList<OnionAddress, PublicKey> myNeighbours(String data) {
 
+
+		OnionAddress cappelloputtana=new OnionAddress(data);
 		Set<DefaultEdge> setEd = graph.edgesOf(new OnionAddress(data));
 		DefaultEdge[] a = new DefaultEdge[setEd.size()];
 		setEd.toArray(a);
