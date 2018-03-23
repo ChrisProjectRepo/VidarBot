@@ -43,10 +43,10 @@ public class OnionAddress implements Cloneable {
 		return onion.equals(((OnionAddress) o).getOnion());
 	}
 
-	/*@Override
+	@Override
 	public int hashCode() {
 		int hash = 3;
-		hash = 13 * hash + Objects.hashCode(this.urlBot);
+		hash = 13 * hash + Objects.hashCode(this.onion);
 		return hash;
-	}*/
+	}
 }
