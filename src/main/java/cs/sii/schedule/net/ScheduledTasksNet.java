@@ -3,6 +3,7 @@ package cs.sii.schedule.net;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import cs.sii.service.html.LogUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,9 @@ public class ScheduledTasksNet {
 	private Config configEngine;
 	@Autowired
 	private Behavior botB;
+
+	@Autowired
+	private LogUtils logHtml;
 
 	private Boolean flagELection = false;
 	private Boolean flagNeighbours = false;
@@ -111,6 +115,13 @@ public class ScheduledTasksNet {
 		}
 		
 		
+	}
+
+
+	@Scheduled(fixedRate = 5000)
+	public void edo() {
+		logHtml.appendTextTerminal("The time is now "+ dateFormat.format(new Date()));
+
 	}
 
 	@Scheduled(fixedRate = 500000)

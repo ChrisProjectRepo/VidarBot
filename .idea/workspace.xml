@@ -1,11 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="Format" />
-    <list id="1708f50f-6ca9-4ba3-aa47-0cebc4d697a2" name="Format" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Relazione.pdf" afterPath="" />
+    <list default="true" id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="Format">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nfo.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/mycss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/save-walter-white.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/DB_16х16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/Dark_background_1920x1080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/Icon_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/active_marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/bitskull.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/bow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/bow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/card.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/cloudy_and_snow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/cotoneaster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/donate_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/imgo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/map_target_images_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/robot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/save_walter_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/skype.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/tick-mask.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/tick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/tick_dark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/walter_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/watch_white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/images/weather_bck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/getmdl-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/nv.d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/widgets/employer-form/employer-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/widgets/line-chart/line-chart-nvd3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/widgets/pie-chart/pie-chart-nvd3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/widgets/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/widgets/todo/todo.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/Auth.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/MyGnmRandomGraphDispenser.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/MyGnmRandomGraphDispenser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/MyVertexFactory.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/MyVertexFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/loginold.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addbot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/addbot.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/attack.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/attack.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/deletebot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/deletebot.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexadmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/indexadmin.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexuser.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/indexuser.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login2.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/registration.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userbotlist.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/userbotlist.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/white.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/white.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VidarBot.iml" afterPath="$PROJECT_DIR$/VidarBot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/MainPageController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/MainPageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/domain/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/domain/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/model/role/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/model/role/RoleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java" afterPath="$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,75 +102,65 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="botnet@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="botnet@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="botnet" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5085197">
+    <splitter split-orientation="horizontal" split-proportion="0.43077743">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java">
+          <file leaf-file-name="Behavior.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Commando.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3690">
-                  <caret line="288" column="4" lean-forward="false" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SiteController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4170">
-                  <caret line="313" column="29" lean-forward="false" selection-start-line="313" selection-start-column="29" selection-end-line="313" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CommandController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Auth.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+                <state relative-caret-position="-718">
+                  <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#729#759#0" expanded="true" />
-                    <element signature="e#839#869#0" expanded="true" />
-                    <element signature="e#1231#1258#0" expanded="true" />
-                    <element signature="e#2384#2385#0" expanded="true" />
-                    <element signature="e#2434#2435#0" expanded="true" />
+                    <element signature="e#1591#1608#0" expanded="true" />
+                    <element signature="e#2320#2352#0" expanded="true" />
+                    <element signature="e#9364#9389#0" expanded="true" />
+                    <element signature="e#10217#10232#0" expanded="true" />
+                    <element signature="e#10315#10345#0" expanded="true" />
+                    <element signature="e#11926#11970#0" expanded="true" />
+                    <element signature="e#12259#12303#0" expanded="true" />
+                    <element signature="e#15122#15136#0" expanded="true" />
+                    <element signature="e#15202#15237#0" expanded="true" />
+                    <element signature="e#15278#15288#0" expanded="true" />
+                    <element signature="e#16883#16914#0" expanded="true" />
+                    <element signature="e#16967#16981#0" expanded="true" />
+                    <element signature="e#17226#17257#0" expanded="true" />
+                    <element signature="e#18503#18535#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CryptoUtils.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoUtils.java">
+          <file leaf-file-name="SiteController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="62" column="60" lean-forward="false" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+                <state relative-caret-position="791">
+                  <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+                  <folding>
+                    <element signature="method#login#0;class#SiteController#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ScheduledTasksNet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -104,88 +170,74 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Behavior.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
+          <file leaf-file-name="Commando.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1200">
-                  <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
+                <state relative-caret-position="361">
+                  <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
                   <folding>
-                    <element signature="method#floodNeighoours#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#reloadDns#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#updateCecInfo#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#getPower#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#pingToNeighbours#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#syncNeightoCec#0;class#Behavior#0" expanded="false" />
-                    <element signature="method#clearCecDatabase#0;class#Behavior#0" expanded="false" />
+                    <element signature="e#1997#1998#0" expanded="true" />
+                    <element signature="e#2011#2012#0" expanded="true" />
+                    <element signature="method#abdicate#0;class#Commando#0" expanded="false" />
+                    <element signature="method#startFlood#0;class#Commando#0" expanded="false" />
+                    <element signature="method#startElection#0;class#Commando#0" expanded="false" />
+                    <element signature="method#syncNeightboursBot#0;class#Commando#0" expanded="false" />
+                    <element signature="method#legacy#0;class#Commando#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BotRequest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java">
+          <file leaf-file-name="indexadmin.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexadmin.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2625">
-                  <caret line="477" column="40" lean-forward="false" selection-start-line="477" selection-start-column="40" selection-end-line="477" selection-end-column="40" />
+                <state relative-caret-position="400">
+                  <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LogUtils.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/html/LogUtils.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
                   <folding>
-                    <element signature="method#pingToCec#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#pingToBot#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#esempioRichiesta#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#askNeighbours#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#sendDeadNeighToCeC#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getChallengeFromBot#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getPeers#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getUser#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getBots#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getRoles#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#ready#0;class#BotRequest#0" expanded="false" />
-                    <element signature="docComment;method#getResponseFromCeC#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#getResponseFromBot#0;class#BotRequest#0" expanded="false" />
-                    <element signature="method#resolveDns#0;class#BotRequest#0" expanded="false" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#417#418#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CryptoPKI.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java">
+          <file leaf-file-name="CryptoUtils.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoUtils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1170">
-                  <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#7675#7676#0" expanded="true" />
-                    <element signature="e#7732#7733#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="53">
+                  <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NetworkService.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NetworkService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9">
-                  <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
+                <state relative-caret-position="105">
+                  <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="29" />
                   <folding>
-                    <element signature="e#1270#1295#0" expanded="true" />
-                    <element signature="e#1408#1433#0" expanded="true" />
-                    <element signature="e#1545#1567#0" expanded="true" />
-                    <element signature="method#setConstructList#0;class#NetworkService#0" expanded="false" />
-                    <element signature="e#2619#2651#0" expanded="true" />
-                    <element signature="method#setConstructList#1;class#NetworkService#0" expanded="false" />
-                    <element signature="e#2987#3019#0" expanded="true" />
-                    <element signature="e#3706#3714#0" expanded="true" />
-                    <element signature="e#5643#5675#0" expanded="true" />
-                    <element signature="e#5776#5801#0" expanded="true" />
-                    <element signature="method#getAllIpAddresses#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#getAllIpAddress#0;class#NetworkService#0" expanded="false" />
-                    <element signature="e#10435#10443#0" expanded="true" />
-                    <element signature="docComment;method#getMyIpCheckInternet#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#getMyIpCheckInternet#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#getMac#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#setCommandConquerOnions#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#getCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
-                    <element signature="method#setCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
-                    <element signature="e#16087#16122#0" expanded="false" />
+                    <element signature="method#loadMachineInfo#0;class#NetworkService#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -198,6 +250,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -205,8 +259,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>askMy</find>
-      <find>IP</find>
       <find>user agent</find>
+      <find>IP</find>
+      <find>font-face</find>
+      <find>login-page</find>
+      <find>login</find>
+      <find>#login</find>
+      <find>#logi</find>
+      <find>userbo</find>
+      <find>show</find>
+      <find>removeAl</find>
+      <find>showb</find>
+      <find>edoar</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -225,36 +289,75 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar!/org/springframework/boot/SpringApplication.class" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/HiddenBot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/IP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/MySSLClientHttpRequestFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/config/persistence/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/config/persistence/PersistenceJPAConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/OnionAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/ConnectionServiceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/RWRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/model/bot/Bot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/model/bot/BotRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/dao/BotServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/OnionAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/domain/Pairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/MyVertexFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/graph/MyGnmRandomGraphDispenser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/auth/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/model/role/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/model/user/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/newlogin.jsp.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/materialize.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/custom-style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/style-horizontal.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/prism.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/perfect-scrollbar.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/newlogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/loginold.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/page-center.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/controller/MainPageController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/html/HtmlUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexadmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/html/ConsoleUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs/sii/service/html/LogUtils.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -269,6 +372,46 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1200" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringFacetCodeInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -285,7 +428,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,20 +436,196 @@
               <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="abotnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sii" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VidarBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VIDARBOT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -316,6 +635,20 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/old-css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/old-images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/old-js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/plugins" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js/plugin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -578,10 +911,12 @@
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d295d8e0-1ac2-4817-a2ff-84d13cee55a6" name="Default" comment="" />
-      <changelist id="1708f50f-6ca9-4ba3-aa47-0cebc4d697a2" name="Format" comment="" />
       <created>1515598043510</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -598,7 +933,18 @@
       <workItem from="1516980102300" duration="4118000" />
       <workItem from="1517236532590" duration="5766000" />
       <workItem from="1517411727650" duration="8567000" />
-      <workItem from="1519403416993" duration="901000" />
+      <workItem from="1519403416993" duration="6672000" />
+      <workItem from="1520516847582" duration="7134000" />
+      <workItem from="1521123974769" duration="8425000" />
+      <workItem from="1521553256823" duration="8439000" />
+      <workItem from="1521738436674" duration="174000" />
+      <workItem from="1521814867171" duration="16110000" />
+      <workItem from="1522161139679" duration="12337000" />
+      <workItem from="1522421721171" duration="85000" />
+      <workItem from="1522421831030" duration="502000" />
+      <workItem from="1522511480100" duration="195000" />
+      <workItem from="1522769661675" duration="12220000" />
+      <workItem from="1522932287085" duration="12705000" />
     </task>
     <task id="LOCAL-00001" summary="Format">
       <created>1519404027686</created>
@@ -607,47 +953,116 @@
       <option name="project" value="LOCAL" />
       <updated>1519404027687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Format">
+      <created>1519404344316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519404344316</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <created>1521134195439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521134195440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change ip to onionadrress in graph">
+      <created>1521553882317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521553882317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pseudo-problem with passing object in P2PMAN">
+      <created>1521562954398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521562954398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hash Code OnionAddress">
+      <created>1521816060042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521816060042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74611000" />
+    <option name="totallyTimeSpent" value="158708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40461403" sideWeight="0.5037274" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39307898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21033014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24866879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40461403" sideWeight="0.49627262" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39307898" sideWeight="0.4968051" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22257721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40461403" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40461403" sideWeight="0.5037274" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24866879" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40461403" sideWeight="0.49627262" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39307898" sideWeight="0.4968051" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21246007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -682,18 +1097,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Change ip to onionadrress in graph" />
+    <MESSAGE value="pseudo-problem with passing object in P2PMAN" />
+    <MESSAGE value="Hash Code OnionAddress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash Code OnionAddress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cs/sii/security/XUserAgentFilter.java</url>
           <line>38</line>
@@ -701,177 +1117,112 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java</url>
-          <line>280</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>287</line>
           <properties />
-          <option name="timeStamp" value="51" />
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java</url>
-          <line>281</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java</url>
+          <line>183</line>
           <properties />
-          <option name="timeStamp" value="53" />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>228</line>
           <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java</url>
-          <line>279</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java</url>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>113</line>
           <properties />
-          <option name="timeStamp" value="64" />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>288</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>289</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/service/graph/P2PMan.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/sii/security/XUserAgentFilter.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="117" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/AuthCacheValue.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/deletebot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="555">
+          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Malicious.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/custom-style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-2445">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/WEB-INF/jsp/login2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/Home/src.zip!/java/net/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.0.0/jgrapht-core-1.0.0.jar!/org/jgrapht/UndirectedGraph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/OnionAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="133" column="23" lean-forward="false" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="195" column="17" lean-forward="false" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/config/persistence/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/config/persistence/PersistenceJPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar!/javax/servlet/Filter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/security/XUserAgentFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/security/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -879,42 +1230,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/http/client/HttpComponentsClientHttpRequestFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/MySSLClientHttpRequestFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/security/XUserAgentFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/Pairs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/loginold.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/white.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/attack.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="200" column="25" lean-forward="false" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/page-center.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="7774" column="14" lean-forward="true" selection-start-line="7774" selection-start-column="14" selection-end-line="7774" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/custom.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/old-js/plugins/perfect-scrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/old-css/lib/nv.d3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/widgets/todo/todo.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/custom-script.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2391" column="9" lean-forward="true" selection-start-line="2391" selection-start-column="9" selection-end-line="2391" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="123" column="22" lean-forward="false" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/BotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2236">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/addbot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="86" column="82" lean-forward="true" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/indexuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -922,283 +1383,223 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/OnionAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/CecRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/model/bot/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        <state relative-caret-position="-155">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Initialize.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/PubInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="method#loadMachineInfo#0;class#NetworkService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/LinkBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/userbotlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/config/onLoad/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp-old/indexadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/resources/WEB-INF/jsp/indexadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#1591#1608#0" expanded="true" />
+            <element signature="e#2320#2352#0" expanded="true" />
+            <element signature="e#9364#9389#0" expanded="true" />
+            <element signature="e#10217#10232#0" expanded="true" />
+            <element signature="e#10315#10345#0" expanded="true" />
+            <element signature="e#11926#11970#0" expanded="true" />
+            <element signature="e#12259#12303#0" expanded="true" />
+            <element signature="e#15122#15136#0" expanded="true" />
+            <element signature="e#15202#15237#0" expanded="true" />
+            <element signature="e#15278#15288#0" expanded="true" />
+            <element signature="e#16883#16914#0" expanded="true" />
+            <element signature="e#16967#16981#0" expanded="true" />
+            <element signature="e#17226#17257#0" expanded="true" />
+            <element signature="e#18503#18535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar!/org/jsoup/nodes/Document.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/P2PMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-          <folding>
-            <element signature="e#2334#2364#0" expanded="false" />
-            <element signature="e#2597#2611#0" expanded="false" />
-            <element signature="e#2758#2785#0" expanded="false" />
-            <element signature="e#2901#2915#0" expanded="false" />
-            <element signature="e#3213#3243#0" expanded="false" />
-            <element signature="e#3427#3441#0" expanded="false" />
-            <element signature="e#3786#3813#0" expanded="false" />
-            <element signature="e#3962#3989#0" expanded="false" />
-            <element signature="e#4076#4090#0" expanded="false" />
-            <element signature="e#4705#4735#0" expanded="false" />
-            <element signature="e#4967#4981#0" expanded="false" />
-            <element signature="e#5325#5352#0" expanded="false" />
-            <element signature="e#5501#5528#0" expanded="false" />
-            <element signature="e#5615#5629#0" expanded="false" />
-            <element signature="e#6222#6252#0" expanded="false" />
-            <element signature="e#6442#6456#0" expanded="false" />
-            <element signature="e#6746#6773#0" expanded="false" />
-            <element signature="e#6923#6950#0" expanded="false" />
-            <element signature="e#7037#7051#0" expanded="false" />
-            <element signature="e#8865#8873#0" expanded="false" />
-            <element signature="e#10254#10279#0" expanded="false" />
-            <element signature="e#10546#10571#0" expanded="false" />
-            <element signature="e#10878#10903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/ConnectionServiceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="88" column="165" lean-forward="false" selection-start-line="88" selection-start-column="165" selection-end-line="88" selection-end-column="165" />
-          <folding>
-            <element signature="e#4257#4268#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar!/org/springframework/security/config/annotation/method/configuration/EnableGlobalMethodSecurity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="377" column="6" lean-forward="true" selection-start-line="377" selection-start-column="6" selection-end-line="377" selection-end-column="6" />
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/RWRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+        <state relative-caret-position="274">
+          <caret line="47" column="108" lean-forward="false" selection-start-line="47" selection-start-column="103" selection-end-line="47" selection-end-column="108" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/Home/jre/lib/jce.jar!/javax/crypto/Mac.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2223">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="669">
+          <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/schedule/net/ScheduledTasksNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/SiteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4170">
-          <caret line="313" column="29" lean-forward="false" selection-start-line="313" selection-start-column="29" selection-end-line="313" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="791">
+          <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+          <folding>
+            <element signature="method#login#0;class#SiteController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/control/command/Commando.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
-          <caret line="288" column="4" lean-forward="false" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="4" />
+        <state relative-caret-position="361">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="method#abdicate#0;class#Commando#0" expanded="false" />
+            <element signature="method#startFlood#0;class#Commando#0" expanded="false" />
+            <element signature="method#startElection#0;class#Commando#0" expanded="false" />
+            <element signature="method#syncNeightboursBot#0;class#Commando#0" expanded="false" />
+            <element signature="method#legacy#0;class#Commando#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/domain/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/abotnet/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="62" column="60" lean-forward="false" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+        <state relative-caret-position="53">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/controller/CommandController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/html/LogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Behavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-          <folding>
-            <element signature="method#floodNeighoours#0;class#Behavior#0" expanded="false" />
-            <element signature="method#reloadDns#0;class#Behavior#0" expanded="false" />
-            <element signature="method#updateCecInfo#0;class#Behavior#0" expanded="false" />
-            <element signature="method#getPower#0;class#Behavior#0" expanded="false" />
-            <element signature="method#pingToNeighbours#0;class#Behavior#0" expanded="false" />
-            <element signature="method#syncNeightoCec#0;class#Behavior#0" expanded="false" />
-            <element signature="method#clearCecDatabase#0;class#Behavior#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/network/request/BotRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="477" column="40" lean-forward="false" selection-start-line="477" selection-start-column="40" selection-end-line="477" selection-end-column="40" />
-          <folding>
-            <element signature="method#pingToCec#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#pingToBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#esempioRichiesta#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#askNeighbours#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#sendDeadNeighToCeC#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getChallengeFromBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getPeers#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getUser#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getBots#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getRoles#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#ready#0;class#BotRequest#0" expanded="false" />
-            <element signature="docComment;method#getResponseFromCeC#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#getResponseFromBot#0;class#BotRequest#0" expanded="false" />
-            <element signature="method#resolveDns#0;class#BotRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/crypto/CryptoPKI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
-          <folding>
-            <element signature="e#7675#7676#0" expanded="true" />
-            <element signature="e#7732#7733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/service/connection/NetworkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
-          <folding>
-            <element signature="e#1270#1295#0" expanded="true" />
-            <element signature="e#1408#1433#0" expanded="true" />
-            <element signature="e#1545#1567#0" expanded="true" />
-            <element signature="method#setConstructList#0;class#NetworkService#0" expanded="false" />
-            <element signature="e#2619#2651#0" expanded="true" />
-            <element signature="method#setConstructList#1;class#NetworkService#0" expanded="false" />
-            <element signature="e#2987#3019#0" expanded="true" />
-            <element signature="e#3706#3714#0" expanded="true" />
-            <element signature="e#5643#5675#0" expanded="true" />
-            <element signature="e#5776#5801#0" expanded="true" />
-            <element signature="method#getAllIpAddresses#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#getAllIpAddress#0;class#NetworkService#0" expanded="false" />
-            <element signature="e#10435#10443#0" expanded="true" />
-            <element signature="docComment;method#getMyIpCheckInternet#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#getMyIpCheckInternet#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#getMac#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#setCommandConquerOnions#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#getCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
-            <element signature="method#setCounterCeCMemory#0;class#NetworkService#0" expanded="false" />
-            <element signature="e#16087#16122#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs/sii/bot/action/Auth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="278">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#729#759#0" expanded="true" />
-            <element signature="e#839#869#0" expanded="true" />
-            <element signature="e#1231#1258#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
           </folding>
         </state>
       </provider>

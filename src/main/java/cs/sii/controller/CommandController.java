@@ -91,7 +91,7 @@ public class CommandController {
 					response = cmm.authReq(idBot);
 			}
 		} else {
-			System.out.println("non sono cec");
+			System.out.println("Non sono cec");
 			error.sendError(HttpStatus.SC_NOT_FOUND);
 		}
 		return response;
@@ -113,8 +113,8 @@ public class CommandController {
 		return response;
 	}
 
-	///////////////////////////////////////////////////////////////////////////
-	//// CONTROLLER PER LA GESTIONE DELLE RICHIESTE DI MIGRAZIONE DATABASE////
+	////////////////////////////////////////////////////////////////////////////
+	//// CONTROLLER PER LA GESTIONE DELLE RICHIESTE DI MIGRAZIONE DATABASE ////
 	@RequestMapping(value = "/newKing/roles", method = RequestMethod.POST)
 	@ResponseBody
 	public List<Role> newKingRoles(@RequestBody String idBot, HttpServletRequest req) {
@@ -193,7 +193,7 @@ public class CommandController {
 		return true;
 	}
 
-	/////////////////////////////////////////////////////////////////////////
+	//////////////////////////// ELEZIONE E PING /////////////////////////////////////////////
 
 	@RequestMapping(value = "/election", method = RequestMethod.GET)
 	@ResponseBody

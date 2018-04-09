@@ -1,65 +1,84 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<html>
-	<head>
-		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;</title>
-		
-		<!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-    
-		<link href="<c:url value='/css/app.css' />" rel="stylesheet"></link>
-		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />
-	</head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Login Page | Materialize - Material Design Admin Template</title>
 
-	<body>
-		<div id="mainWrapper" align="center">
-			<div class="general-container">
-				<div class="general-card">
-					<div class="general-form">
-						<c:url var="loginUrl" value="" />
-						<form action="${loginUrl}" method="post" class="form-horizontal">
-							<c:if test="${param.error != null}">
-								<div class="alert alert-danger" style="color: red">
-									<p>Invalid username and password.</p>
-								</div>
-							</c:if>
-							<c:if test="${param.logout != null}">
-								<div class="alert alert-success" style="color: green">
-									<p>You have been logged out successfully.</p>
-								</div>
-							</c:if>
-							<div>
-								<input type="text" class="hiddbox" id="username" name="ssoId" onfocus="if(this.placeholder == '&#xf007';  Username') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = '&#xf007';  Username'; } " placeholder="&#xf007;  Username"><span class="highlight"></span><span class="bar"></span>
-							</div>
-							<div>
-								<input type="password" class="hiddbox" id="password" name="password" onfocus="if(this.placeholder == '&#xf023';  Password') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = '&#xf023';  Password'; }" placeholder="&#xf023;  Password"><span class="highlight"></span><span class="bar"></span>
-                          	</div>
-							<p>
-   							<input type="checkbox" id="rememberme" name="remember-me"/>  							
-   							<label for="rememberme">Remember me</label>
-							</p><p></p>
-							<input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="/css/page-center.css" type="text/css" rel="stylesheet">
 
-							<div class="form-actions">
-								<button value="Log in">login</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+      <link href="/css/style-login.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body class="blue-grey darken-4">
+
+
+<div id="login-page" class="row">
+    <div class="col s12 z-depth-4 card-panel">
+        <c:url var="loginUrl" value="" />
+        <form action="${loginUrl}" method="post" class="login-form">
+            <c:if test="${param.error != null}">
+                <div class="alert alert-danger" style="color: red">
+                    <p>Invalid username and password.</p>
+                </div>
+            </c:if>
+            <div class="row">
+                <div class="input-field col s12 center">
+                    <img src="/images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+                    <p class="center login-form-text">Material Design Admin Template</p>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix pt-5">person_outline</i>
+                    <input id="username" type="text" name="ssoId" ><span class="highlight"></span><span class="bar"></span>
+                    <label for="username" class="center-align">Username</label>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix pt-5">lock_outline</i>
+                    <input id="password" type="password" name="password" >
+                    <label for="password">Password</label>
+                  <!--  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12 ml-2 mt-3">
+                    <input type="checkbox" id="remember-me" />
+                    <label for="remember-me">Remember me</label>
+                </div>
+            </div>
+            <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
+            <div class="row">
+                <div class="input-field col s12">
+                    <button class="btn waves-effect blue-grey darken-3 col s12">Login</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- ================================================
+Scripts
+================================================ -->
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+<script src="/js/init.js"></script>
+</body>
 </html>

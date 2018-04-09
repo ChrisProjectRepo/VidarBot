@@ -9,7 +9,8 @@ public class MainPageController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String Home() {
-		return "white";
+		return "redirect:/site/login";
+		//return "white";
 	}
 
 }

@@ -232,7 +232,7 @@ public class CryptoPKI {
 		try {
 			puK = fact.generatePublic(new X509EncodedKeySpec(Base64.decodeBase64(keyEncoding)));
 		} catch (InvalidKeySpecException e) {
-			System.out.println("errore rigenerazione chiave");
+			System.err.println("Errore rigenerazione chiave pubblica");
 			e.printStackTrace();
 		}
 		return puK;

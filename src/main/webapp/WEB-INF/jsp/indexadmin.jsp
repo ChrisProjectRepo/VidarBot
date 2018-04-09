@@ -1,102 +1,185 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;&#9617;</title>
+    <meta http-equiv="refresh" content="5">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/application.css">
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-small-screen">
-    <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-            <div class="mdl-layout-spacer"></div>
-            <!-- Search-->
-       			
-       			<li class="mdl-list__item mdl-list__item--two-line">
-       				<span class="mdl-list__item-primary-content" >
-                       <a href="../logout">
-                        <i class="material-icons mdl-list__item-icon text-color--secondary" >exit_to_app</i>
-                       </a>
-                      </span>
-    		 	</li>
-     
 
+
+</div>
+  <nav class="blue-grey darken-4 white-text nav-extended">
+     <div class="nav-wrapper container">
+       <a href="#" class="brand-logo">VIDAR</a>
+       <ul class="right">
+         <li><a> <c:out value="${data.myOnion}"></c:out></a></li>
+       </ul>
+     </div>
+     <div class="nav-content blue-grey darken-3">
+       <ul class="tabs tabs-transparent">
+         <li class="tab"><a class="active" href="#botconsole">BOT LOG</a></li>
+         <li class="tab"><a  href="#botlist">BOT LIST</a></li>
+            <li class="tab"><a href="#userpriv">USER PRIVILEGE</a></li>
+               <li class="tab"><a href="#userlist">USER LIST</a></li>
+       </ul>
+     </div>
+   </nav>
+
+<div id="main" class="wrapper">
+
+
+  <!-- Bot Console  -->
+  <section id="botconsole">
+
+    <!-- Info Bot  -->
+    <div class="row">
+        <div class="col s12 m8 l6 offset-l3 offset-m2">
+            <div class="card z-depth-5 card-roundCornerInfoBot">
+                <div class="card-content">
+
+                    <div class="card-title blue-grey-text center-align">
+                        <b>INFO BOT</b>
+                    </div>
+                    <div class="row blue-grey-text center-align">
+                        <div class="col s6">
+                            <b>MAC</b>
+                        </div>
+                        <div class="col s6">
+                            <b>OS</b>
+                        </div>
+                    </div>
+                    <div class="row center-align">
+                        <div class="col s6">
+                            <c:out value="${data.mac}"></c:out>
+                        </div>
+                        <div class="col s6">
+                            <c:out value="${data.os}"></c:out>
+                        </div>
+                    </div>
+                    <div class="row blue-grey-text center-align">
+                        <div class="col s6">
+                            <b>Architettura</b>
+                        </div>
+                        <div class="col s6">
+                            <b>Versione OS</b>
+                        </div>
+                    </div>
+                    <div class="row center-align">
+                        <div class="col s6">
+                            <c:out value="${data.archOS}"></c:out>
+                        </div>
+                        <div class="col s6">
+                            <c:out value="${data.versionOS}"></c:out>
+                        </div>
+                    </div>
+                    <div class="row blue-grey-text center-align">
+                        <div class="col s6">
+                            <b>Computer User</b>
+                        </div>
+                        <div class="col s6">
+                            <b>ID HASH</b>
+                        </div>
+                    </div>
+                    <div class="row center-align">
+                        <div class="col s6">
+                            <c:out value="${data.usernameOS}"></c:out>
+                        </div>
+                        <div class="col s6">
+                            <c:out value="${data.idHash}"></c:out>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    
-		<div class="mdl-layout__drawer">
-			<header>
-				<img width="20%" src="/images/bitskull.jpg">
-			</header>
-			<nav class="mdl-navigation">
-			
-						<a class="mdl-navigation__link" href="../admin/index"> <i
-					class="material-icons" role="presentation">dashboard</i> Dashboard
-				</a>
-				<a class="mdl-navigation__link" href="../admin/newuser"> <i
-					class="material-icons" role="presentation"><i
-						class="fa fa-address-book-o" aria-hidden="true"></i></i> Registration
-				</a> 
-				<a class="mdl-navigation__link mdl -navigation__link--current" href="../admin/addbot">
-					<i class="material-icons" role="presentation"><i
-						class="fa fa-plus-square-o" aria-hidden="true"></i></i> <i>Add Bot</i>
-				</a>
-				<a class="mdl-navigation__link mdl -navigation__link--current" href="../admin/removeallbot">
-					<i class="material-icons" role="presentation"><i
-						class="fa fa-trash-o" aria-hidden="true"></i></i> <i>Delete Bot</i>
-				</a>
-            
-            
-
-            <div class="mdl-layout-spacer"></div>
-            <a class="mdl-navigation__link" href="https://github.com/xXCiccioXx/BOTNET">
-                <i class="material-icons" role="presentation">link</i>
-                GitHub
-            </a>
-        </nav>
-        
     </div>
 
-<main class="mdl-layout__content"></main>
-	<font color="white"><p align="right"><font size="15"><i class="fa fa-hand-spock-o" aria-hidden="true"></i></font> <br>Administrator Control Panel: <br><i>check your own business!</i></p></font>
+      <!--  Console-->
+      <div class="row">
+          <div class="col s12 m6">
+              <div id="style-7" class="card z-depth-5 card-roundCorner scale-transition scale-in cardHeight">
+                  <div class="card-content text">
+                      <span class="card-title">Debug Console</span>
+                      <c:forEach items="${debug}" var="deb">
+
+                          <p><c:out value="${deb}"></c:out>
+                          </p>
+
+                      </c:forEach>
+                  </div>
+              </div>
+          </div>
+          <div class="col s12 m6">
+              <div id="style-7" class="card z-depth-5 card-roundCorner scale-transition scale-in cardHeight">
+                  <div class="card-content">
+                      <span class="card-title">Terminal Console</span>
+                          <c:forEach items="${terminal}" var="ter">
+
+                      <p><c:out value="${ter}"></c:out>
+                      </p>
+
+                      </c:forEach>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+
+  <!-- Bot List  -->
+  <section id="botlist">
+
+      <!-- Info Bot  -->
+      <div class="container">
+
+
+        <ul class="collection with-header">
+
+        <li class="collection-header"><h4>Vidar Bot Net</h4></li>
+
+            <c:forEach items="${bots}" var="bot">
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue-grey darken-3">computer</i>
+                    <span class="title"><c:out value="${bot.onionAddress}"></c:out></span>
+                    <p><c:out value="${bot.idBot}"></c:out><br><c:out value="${bot.usernameOS}"></c:out>
+                    </p>
+                    <a class="secondary-content small waves-effect waves-light btn blue-grey darken-3"><i class="material-icons left">build</i>manage</a>
+                </li>
+            </c:forEach>
+
+    </ul>
+
+      </div>
+    </section>
+
 </div>
 
-<!-- inject:js -->
-<script src="/js/d3.js"></script>
-<script src="/js/getmdl-select.min.js"></script>
-<script src="/js/material.js"></script>
-<script src="/js/nv.d3.js"></script>
-<script src="/js/widgets/employer-form/employer-form.js"></script>
-<script src="/js/widgets/line-chart/line-chart-nvd3.js"></script>
-<script src="/js/widgets/map/maps.js"></script>
-<script src="/js/widgets/pie-chart/pie-chart-nvd3.js"></script>
-<script src="/js/widgets/table/table.js"></script>
-<script src="/js/widgets/todo/todo.js"></script>
-<!-- endinject -->
+  <footer class="page-footer blue-grey darken-4 white-text">
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3">Nobody</a>
+      </div>
+    </div>
+  </footer>
 
-</body>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>

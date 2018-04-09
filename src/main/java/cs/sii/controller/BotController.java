@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import cs.sii.bot.action.Auth;
+import cs.sii.service.crypto.Auth;
 import cs.sii.bot.action.Behavior;
 import cs.sii.config.onLoad.Config;
 import cs.sii.domain.OnionAddress;

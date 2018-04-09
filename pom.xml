@@ -144,6 +144,11 @@
 
 
 
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.11.2</version>
+		</dependency>
 
 
 		<dependency>
@@ -160,6 +165,11 @@
 			<groupId>org.jgrapht</groupId>
 			<artifactId>jgrapht-ext</artifactId>
 			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>bitvir</artifactId>
+			<version>0.1.0</version>
 		</dependency>
 
 		<!-- <dependency> <groupId>org.jgrapht</groupId> <artifactId>jgrapht-touchgraph</artifactId> 
